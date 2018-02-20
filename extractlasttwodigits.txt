@@ -1,0 +1,15 @@
+//18.extract last two digits
+#include<stdio.h>
+int main()
+{
+int year,yr;
+printf("enter the year");
+scanf("%d",&year);
+yr=year%100;
+printf('last two digits of year is:%02d",yr);
+return 0;
+}  
+
+sample output:
+enter the year 2018
+last two digits of year is:18

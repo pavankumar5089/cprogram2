@@ -1,0 +1,33 @@
+//17.print item details of store
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+char name[100],icode[10],price[6],qua[3],mdate[10];
+int n,i;
+clrscr();
+printf("enter no items u want to insert:");
+scanf("%d",&n);
+for(i=0;i<n;i++)
+{
+printf("\nenter item name:");
+scanf("%s",&name[i]);
+printf("\nenter item code:");
+scanf("%s",&icode[i]);
+printf("\nenter price of an item:");
+scanf("%s",&price[i]);
+printf("\nenter quantity of item:");
+scanf("%s",&qua[i]);
+printf("enter manufacturing date:");
+scanf("%s",&mdate[i]);
+}
+printf("\n-------------------------------------------------------------------------");
+printf("\n                              item details                               ");
+printf("\n-------------------------------------------------------------------------");
+printf("\nitem name\titem code\tprice\tquantity\tmanufacturing date\n");
+printf("---------------------------------------------------------------------------\n");
+//for(i=0;i<n;i++)
+printf("%s %s %s %s %s\n",name[0],icode[0],price[0],qua[0],mdate[0]);
+getch();
+return 0;
+}
