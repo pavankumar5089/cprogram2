@@ -9,7 +9,6 @@ int val3;
 int val4;
 int val5;
 int val6;
-for (i=n;)
 cout<<"Please enter your 6 numbers:";
 cin>>val1>>val2>>val3>>val4>>val5>>val6;
 cout<<"\nYour numbers forward:\n";
